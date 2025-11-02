@@ -10,8 +10,8 @@ permissions:
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 */2 * *' 
+  # schedule:
+    # - cron: '0 0 */2 * *' 
     
 jobs:
   update:
